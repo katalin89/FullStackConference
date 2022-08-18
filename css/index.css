@@ -167,6 +167,7 @@ border: 2px solid black;
     display: flex;
     flex-direction: row;
     gap:10px
+   
 
 }
 .container-enumerari{
@@ -202,19 +203,9 @@ border: 2px solid black;
 
 }
 
-
-
-
-.container2{
-    border:2px solid red;
-    display: flex;
-    flex-direction: row;
-    gap:10px
-
-}
-
-.container-frameworks{
-    border:2px solid red;
+/* .................... */
+.container-prima{
+    border: 2px solid red;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -223,8 +214,93 @@ border: 2px solid black;
 
 }
 
+.vertical-frameworks{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
 .frameworks{
-    border: 2px solid green;
+    border: 2px solid red;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 100%;
+   
+}
+
+/* ........................ */
+.container2{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    gap:10px
+}
+.container-doua{
+    border: 2px radius red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.vertical-build{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
+.build{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+/* ............. */
+
+.container3{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    gap:10px
+}
+
+.conainer-prima{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-npm{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.npm{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-express{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.express{
+    border:2px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* ....................... */
+.total{
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: row;
+    margin-left: 90%;
+    border: 20xs;
 }
