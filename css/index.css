@@ -163,7 +163,7 @@ border: 2px solid black;
 
 /* ..................... */
 .container{
-    border:2px solid red;
+    border: 2px solid grey;
     display: flex;
     flex-direction: row;
     gap:10px
@@ -171,7 +171,7 @@ border: 2px solid black;
 
 }
 .container-enumerari{
-    border:2px solid red;
+    border: 2px solid grey;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -187,7 +187,7 @@ border: 2px solid black;
 
 
 .container-node{
-    border:2px solid red;
+    border: 2px solid grey;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -205,7 +205,7 @@ border: 2px solid black;
 
 /* .................... */
 .container-prima{
-    border: 2px solid red;
+    border: 2px solid grey;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -232,13 +232,13 @@ border: 2px solid black;
 
 /* ........................ */
 .container2{
-    border: 2px solid red;
+    border: 2px solid grey;
     display: flex;
     flex-direction: row;
     gap:10px
 }
 .container-doua{
-    border: 2px radius red;
+    border: 2px solid grey;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -246,7 +246,7 @@ border: 2px solid black;
 }
 
 .vertical-build{
-    border: 2px solid red;
+    border: 2px solid grey;
     display: flex;
     flex-direction: column;
 }
@@ -259,14 +259,14 @@ border: 2px solid black;
 /* ............. */
 
 .container3{
-    border: 2px solid blue;
+    border: 2px solid grey;
     display: flex;
     flex-direction: row;
     gap:10px
 }
 
 .conainer-prima{
-    border: 2px solid red;
+    border: 2px solid grey;
     display: flex;
     flex-direction: row;
 }
@@ -302,5 +302,57 @@ border: 2px solid black;
     display: flex;
     flex-direction: row;
     margin-left: 90%;
-    border: 20xs;
+    font-weight: bolder;
+    
+}
+.paiment{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/* .................... */
+
+.container4{
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ecpiration-date{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-card{
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+/* .......................... */
+.container5{
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container6{
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.register{
+    border: 2px solid black;
+    
+}
+button{
+    background-color: rgb(164, 139, 143);
+    color:white;
+    font-size: 40px;
 }
